@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>abcd</servlet-name>
+		<servlet-class>BillServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>abcd</servlet-name>
+		<url-pattern>/key</url-pattern>
+	</servlet-mapping>
+</web-app>

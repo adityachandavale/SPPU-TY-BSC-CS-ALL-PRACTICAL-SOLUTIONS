@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>xyzw</servlet-name>
+		<servlet-class>CookieServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>xyzw</servlet-name>
+		<url-pattern>/abcd</url-pattern>
+	</servlet-mapping>
+</web-app>

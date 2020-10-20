@@ -1,0 +1,2 @@
+javac ServerInfo.java
+pause
