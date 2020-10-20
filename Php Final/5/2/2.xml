@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<EmpDetails>
+<Employee Empno="111" Empname="abcd">
+<Salary>15000</Salary>
+<Designation>Designer</Designation>
+</Employee>
+<Employee Empno="222" Empname="xyzw">
+<Salary>25000</Salary>
+<Designation>Tester</Designation>
+</Employee>
+<Employee Empno="333" Empname="mnop">
+<Salary>35000</Salary>
+<Designation>Programmer</Designation>
+</Employee>
+</EmpDetails>

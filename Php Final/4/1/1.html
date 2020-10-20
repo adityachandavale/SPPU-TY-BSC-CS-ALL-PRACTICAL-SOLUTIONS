@@ -1,0 +1,27 @@
+<html>
+<head>
+<script language="javascript">
+function check_vowel(str){
+var cnt=0;
+for(i=0;i<str.length;i++){
+switch(str[i]){
+case 'a':
+case 'e':
+case 'i':
+case 'o':
+case 'u': cnt++;
+}
+}
+document.getElementById("mydiv").innerHTML="Number of vowels is "+cnt;
+}
+</script>
+</head>
+<body>
+<form name="f1">
+ENTER A STRING
+<input type="text" name="str" /><br />
+<input type="button" value="count" onclick="check_vowel(f1.str.value)" />
+<div id="mydiv" />
+</form>
+</body>
+</html>

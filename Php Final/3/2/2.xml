@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<BookInfo>
+<Book>
+<BookNo>111</BookNo>
+<BookName>JAVA FOR SCJP</BookName>
+<AuthorName>KHALID MUGHAL</AuthorName>
+<Price>400</Price>
+<Year>2000</Year>
+</Book>
+<Book>
+<BookNo>222</BookNo>
+<BookName>LET US C</BookName>
+<AuthorName>YASHWANT KANTIKAR</AuthorName>
+<Price>250</Price>
+<Year>1990</Year>
+</Book>
+<Book>
+<BookNo>333</BookNo>
+<BookName>ANSI C++</BookName>
+<AuthorName>E BALAGURUSAMY</AuthorName>
+<Price>300</Price>
+<Year>2000</Year>
+</Book>
+<Book>
+<BookNo>444</BookNo>
+<BookName>JAVA PRIMER</BookName>
+<AuthorName>E BALAGURUSAMY</AuthorName>
+<Price>250</Price>
+<Year>2016</Year>
+</Book>
+<Book>
+<BookNo>555</BookNo>
+<BookName>JAVA OCA8</BookName>
+<AuthorName>KATHY SIERRA</AuthorName>
+<Price>250</Price>
+<Year>2016</Year>
+</Book>
+</BookInfo>

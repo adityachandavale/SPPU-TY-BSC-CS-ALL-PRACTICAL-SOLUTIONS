@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="2.css"?>
+<universities>
+<univ>
+<uname>Pune University</uname>
+<city>Pune</city>
+<rank>1</rank>
+</univ>
+<univ>
+<uname>Mumbai University</uname>
+<city>Mumbai</city>
+<rank>2</rank>
+</univ>
+<univ>
+<uname>Nagpur University</uname>
+<city>Nagpur</city>
+<rank>3</rank>
+</univ>
+</universities>
+JAVA-
