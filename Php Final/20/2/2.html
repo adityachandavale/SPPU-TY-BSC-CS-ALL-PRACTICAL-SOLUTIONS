@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+function showHint(str) {
+var xhttp;
+if(str.length == 0) {
+document.getElementById("txtHint").innerHTML = "";
+return;
+}
+xhttp = new XMLHttpRequest();
+xhttp.open("GET","2.php?q="+str, true);
+xhttp.send();
+xhttp.onreadystatechange = function(){
+if (xhttp.readyState == 4 && xhttp.status == 200){
+document.getElementById("txtHint").innerHTML = xhttp.responseText;
+}
+};
+}
+</script>
+</head>
+<body>
+<h3>Enter Student Name</h3>
+<form action="">
+First name:
+<input type="text" id="txt1" onkeyup="showHint(this.value)">
+</form>
+<span id="txtHint"></span></p>
+</body>
+</html>
