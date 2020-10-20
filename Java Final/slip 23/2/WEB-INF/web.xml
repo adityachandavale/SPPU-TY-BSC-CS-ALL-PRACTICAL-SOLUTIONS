@@ -1,0 +1,27 @@
+<web-app>
+  <display-name>JSPImplicitObjects</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+	<param-name>state</param-name>
+	<param-value>Maharashtra</param-value>
+  </context-param>
+  
+  <servlet>
+	<servlet-name>home</servlet-name>
+	<jsp-file>/index.jsp</jsp-file>
+	
+	<init-param>
+		<param-name>city</param-name>
+		<param-value>pune</param-value>
+	</init-param>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>home</servlet-name>
+	<url-pattern>/home.jsp</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

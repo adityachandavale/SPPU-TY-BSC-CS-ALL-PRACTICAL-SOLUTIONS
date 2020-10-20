@@ -1,0 +1,21 @@
+<web-app>
+	<servlet>
+		<servlet-name>next</servlet-name>
+		<servlet-class>NextServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>next</servlet-name>
+		<url-pattern>/next</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>result</servlet-name>
+		<servlet-class>ResultServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>result</servlet-name>
+		<url-pattern>/result</url-pattern>
+	</servlet-mapping>
+</web-app>
